@@ -21,7 +21,19 @@
         <section class="listContainer">
             <div class="ListTitle">
                 <h1>To Do List</h1>
-                <button id="clearItems" class="button" title="Clear the List">
+                <button id="clearItems" class="button" title="Clear the List" aria-label="Remove all items from the list" tabindex="0">
+                    Clear</button>
+            </div>
+            <hr />
+            <div id ="listItems">
+                        <div class="item"> <!--These items in the box are temporary for designing purposes all items will be js produced-->
+                            <input type="checkbox" id="1" tabindex="0">
+                            <label for="1">eat</label>
+                        </div>
+                        <div class="item">
+                            <input type="checkbox" id="1" tabindex="0">
+                            <label for="1">eat</label>
+                        </div>
             </div>
         </section> 
     </main>
